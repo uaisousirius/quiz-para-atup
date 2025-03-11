@@ -6,24 +6,26 @@
 <head> <!--meta dados e titulo-->
     <title>quiz para o atup</title>
     <meta name="bruno" content="quiz interativo">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://127.0.0.1/8:3000/hook.js"></script>
 </head>
 
 <body>
 
    <header>
-        <h1>quiz muito joia</h1>
+        <h1>quiz muito joia para meus amigos</h1>
         <p>voces irao gostar</p>
    </header>
    <footer></footer>
    <main>
         <section> <!--explicacao do quiz-->
             <h2>fiz este quiz para o atup testar oque eles sabem sobre mim</h2>
-            <p>serao feitas perguntas simples sobre mim para o <abbr title="grupo de amigos"><strong>atup</strong></abbr></p>
+            <p><em>serao</em> feitas perguntas simples sobre mim para o <abbr title="grupo de amigos"><strong>atup</strong></abbr></p>
             <p>este quiz tambem foi feito para meu aprendizado em html</p>
         </section>
-        <section>
+        <section><!--pergunta 1-->
             <h3>pergunta 1: qual e meu nome completo?</h3>
-            <form > <!--pergunta 1-->
+            <form > 
                 <input type="radio" value="bruno alexander feliciano" id="p1a" name="pergunta1">
                     <label for="p1a">bruno alexander feliciano</label>
                 <input type="radio" value="bruno alex felix" id="p2a" name="pergunta1">
@@ -33,24 +35,32 @@
                 <input type="radio" value="bruno alex feliciano" id="p4a" name="pergunta1">
                     <label for="p4a">bruno alex feliciano</label>
             </form>
+        </section>
+        <section><!--pergunta 2-->
             <h3>pergunta 2: qual meu curso da faculdade?</h3>
-            <form > <!--pergunta 2-->
+            <form > 
                 <input type="radio" value="ads" id="p1a" name="pergunta2">
                     <label for="p1a"> <abbr title="analise e desenvolvimento de sistemas"><strong>ads</strong></abbr></label>
                 <input type="radio" value="cc" id="p2a" name="pergunta2">
                     <label for="p2a"><abbr title="ciencias da computacao"><strong>cc</strong></abbr></label>
                     <p>caso nao souber as abreviacoes e so manter o mouse em cima</p>
             </form>
+        </section>
+        <section><!--pergunta 3-->
             <h3>qual o nome do participante do quiz?</h3>
-            <form> <!--pergunta 3-->
+            <form> 
                 <input type="text" id="p2" name="pergunta 3" placeholder="digite seu nome aqui...">
             </form>
+        </section>
+        <section><!--pergunta 4-->
             <h3>qual minha data de nascimento</h3>
-            <form> <!--pergunta 4-->
+            <form> 
                 <input type="date" id="p4" name="pergunta4">
             </form>
+        </section>
+        <section><!--pergunta 5-->
             <h3>QUAIS destes animais eu tenho em casa</h3>
-            <form> <!--pergunta 5-->
+            <form> 
                 <input type="checkbox" id="p5a" name="pergunta5" value="gato">
                     <label for="p5a">gato</label>
                 <input type="checkbox" id="p5b" name="pergunta5" value="cachorro">
@@ -58,10 +68,14 @@
                     <input type="checkbox" id="p5c" name="pergunta5" value="galinha">
                         <label for="p5c">galinha</label>
             </form>
+        </section>
+        <section><!--add um arquivo-->
             <h3>add aqui uma foto nossa</h3>
             <form>
                 <input type="file">
             </form>
+        </section>
+        <section><!--tabela-->
             <h3>sua pontuacao cabaco</h3>
                 <table border="1">
                     <tr>
@@ -85,7 +99,8 @@
                     <td>amigo de longa data</td>
                 </tr>
                 </table><br>
-
+        </section>
+        <section><!--detalhes-->
             <details>
                 <summary>clique aqui para ver respostas</summary>
                     <ol>
@@ -95,8 +110,11 @@
                         <li>todas as opcoes</li>
                     </ol>
             </details><br>
-            <img src="bruno.jpeg" alt="">
+        </section>
+        <section1><!--obrigado-->
+            <img src="bruno.jpeg" width="200px" height="auto">
             <h4>bruno agradece pela participacao beijo na bunda ate segunda</h4>
+        </section1>
         </section>
    </main>
 
